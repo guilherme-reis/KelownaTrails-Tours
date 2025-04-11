@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "kelownatrails-tours"
+  },
+  "targets": {
+    "kelownatrails-tours": {
+      "hosting": {
+        "production": [
+          "kelownatrails-tours"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
