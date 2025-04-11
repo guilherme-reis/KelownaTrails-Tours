@@ -14,10 +14,11 @@ Kelowna Wine Trails and Tours offers group tours of the Kelowna area wineries. G
 
 ENTER STUDENT INFORMATION HERE 
 ==========================================
-CCTB project DevOps course
-STUDENT NAME: 
-STUDENT ID:
-SQAC114
+CCTB project DevOps course  
+STUDENT NAME: GUILHERME AUGUSTO DOS REIS MARTINS  
+STUDENT ID: CT1008962  
+EMAIL: guilherme.dos8962@mycanctb.ca  
+SQAC114  
 ==========================================
 -->
 <!DOCTYPE HTML>
@@ -32,12 +33,8 @@ SQAC114
          background: url(images/bg_image1.png) no-repeat center center fixed;
          background-size: cover;
          height: 100%;
-         /* overflow: hidden; */
       }
 
-      /*body{
-		background-color: #ccdde1;
-	} */
       table,
       td {
          border: 1px solid black;
@@ -48,7 +45,6 @@ SQAC114
 
       .layout {
          border: 0px;
-         /*border-collapse: collapse; */
          padding: 10px;
          background-color: inherit;
       }
@@ -62,26 +58,16 @@ SQAC114
          display: none;
       }
    </style>
-	 <script src=
-"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    </script>
- 
-    <script>
-        /* Add "https://api.ipify.org?format=json" to 
-        get the IP Address of user*/
-
-	    
-var hostname = window. location. hostname;
-	    
-        $(document).ready(()=>{
-            $.getJSON("https://api.ipify.org?format=json",
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script>
+      var hostname = window.location.hostname;
+      $(document).ready(() => {
+         $.getJSON("https://api.ipify.org?format=json",
             function (data) {
- 
-                // Displayin IP address on screen
-                $("#gfg").html(hostname);
+               $("#gfg").html(hostname);
             })
-        });
-    </script>
+      });
+   </script>
    <title>DevOps Bonus Project - CCTB</title>
 </head>
 
@@ -90,8 +76,8 @@ var hostname = window. location. hostname;
             visibility:hidden;" alt="Flying bee" height="179" width="144" />
 
    <h1> Kelowna Wine Trails and Tours</h1>
-   <h3> Student name / email </h3>
-	<p id="gfg"></p>
+   <h3> GUILHERME AUGUSTO DOS REIS MARTINS — guilherme.dos8962@mycanctb.ca </h3>
+   <p id="gfg"></p>
    <hr size="1" color="#b6bcbb"> <br />
 
    <div class="content" align="left">
@@ -117,15 +103,12 @@ var hostname = window. location. hostname;
                               <input type="button" class="buttons" id="addMemberBtn" value="Add Member" />
                               <input type="button" class="buttons" id="deleteMemberBtn" value="Delete Member" />
                               <input type="button" class="buttons" id="sortMemberListBtn" value="Sort Member List" />
-
                            </p>
 
                            <table border="0">
                               <tr>
                                  <td>
-                                    <select name="group" id="members" size="13" style="width: 150px">
-
-                                    </select>
+                                    <select name="group" id="members" size="13" style="width: 150px"></select>
                                  </td>
 
                                  <td valign="top">Last name<br />
@@ -136,7 +119,6 @@ var hostname = window. location. hostname;
                               </tr>
                            </table>
 
-
                            <p>
                               How many people are in your group?
                               <input type="text" name="Group Size" id="GroupSize" size="5" value="0" />
@@ -145,14 +127,14 @@ var hostname = window. location. hostname;
                                  value="" readonly="readonly" class="total" /> per person.</p>
 
                         </td>
-
                      </tr>
                   </table>
                </form>
             </td>
             <td class="layout">
-               <div align="right"> <span id="advice"><em>Like this bee, be sure to stop <br /> and smell the
-                        flowers!</em></span></div>
+               <div align="right">
+                  <span id="advice"><em>Like this bee, be sure to stop <br /> and smell the flowers!</em></span>
+               </div>
             </td>
          </tr>
       </table>
@@ -165,7 +147,6 @@ var hostname = window. location. hostname;
    </div>
 
    <script src="script/script.js"></script>
-
 </body>
 
 </html>
