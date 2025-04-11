@@ -5,6 +5,9 @@
   "targets": {
     "kelownatrails-tours": {
       "hosting": {
+        "staging": [
+          "kelownatrails-tours"
+        ],
         "production": [
           "kelownatrails-tours"
         ]
