@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    environment {
+        FIREBASE_TOKEN = credentials('firebase-ci-token')
+    }
+
     stages {
         stage('Build') {
             steps {
