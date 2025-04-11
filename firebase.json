@@ -1,11 +1,19 @@
-{
-  "hosting": {
+"hosting": [
+  {
+    "target": "staging",
     "public": ".",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  {
+    "target": "production",
+    "public": ".",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
         "source": "**",
@@ -13,4 +21,4 @@
       }
     ]
   }
-}
+]
