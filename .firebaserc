@@ -1,12 +1,17 @@
-"targets": {
-  "kelownatrails-tours": {
-    "hosting": {
-      "staging": [
-        "kelownatrails-tours-staging"
-      ],
-      "production": [
-        "kelownatrails-tours"
-      ]
+{
+  "projects": {
+    "default": "kelownatrails-tours"
+  },
+  "targets": {
+    "kelownatrails-tours": {
+      "hosting": {
+        "staging": [
+          "kelownatrails-tours-staging"
+        ],
+        "production": [
+          "kelownatrails-tours"
+        ]
+      }
     }
   }
 }
