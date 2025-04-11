@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm install'
+                echo 'No build step required for this static HTML project.'
             }
         }
 
